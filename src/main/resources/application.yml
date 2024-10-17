@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: registroCartera
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/registrocartera
+    username: postgres
+    password: pass
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+api:
+  security:
+    secret: 7hisIs4SecretKeyForJW7Super5ecretKey.Ò—_Ò¥¥_Secret4gain-/!@#$
+
+logging:
+  level:
+    root: INFO
+    com.registrocartera: DEBUG
